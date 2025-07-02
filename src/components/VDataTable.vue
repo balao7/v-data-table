@@ -86,7 +86,7 @@ const getSortIcon = (header) => {
   if ((header.sortKey || header.customSort) && sortKey.value === (header.sortKey || header.label)) {
     return sortOrder.value === 'asc' ? '▲' : '▼';
   }
-  return '↕';
+  return;
 };
 </script>
 
